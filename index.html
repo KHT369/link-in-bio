@@ -3,11 +3,14 @@
   <head>
     <meta charset=""UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
     <title>KT's Links</title>
     <style>
-      * {
+      /* * {
         border: thin red dotted;
-      }
+      } */
       
       html {
         min-height: 100%;
@@ -19,17 +22,22 @@
         padding-bottom: 40px;
         background: radial-gradient(circle at 50% 50%, #000000, #151925, #23315e, #2b40ab, #3d58d2, #6078c2, #8491b4, #a8a8a8);
         color: white;
+        font-family: "Cabin";
       }
 
       a {
         color:white;
+        text-decoration: none;
       }
 
       .item {
-        background-color: rgba(150, 142, 142, 0.404);
+        background-color: rgba(150, 142, 142, 0.3);
         margin-bottom: 20px;
         display:flex;
         align-items: center;
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53;
       }
       
       .avatar-image {
@@ -60,6 +68,9 @@
       .name-row {
         margin-bottom: 30px;
         text-align: center;
+        font-family: "Roboto Condensed";
+        font-size: 24px;
+        font-weight: 900;
       }
 
       .social-icons-row {
@@ -85,14 +96,18 @@
         <div class="name-row">
           Kevin (KT) Tsao
         </div>
-
+        
         <div class="social-icons-row">
           <a href="https://www.linkedin.com/in/kevin-t-89476b99/" target="_blank">
-            LinkedIn
+            <i class="fa-brands fa-linkedin"></i>
           </a>
 
           <a href="https://www.instagram.com/" target="_blank">
-            NotMyGram
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="https://github.com/KHT369" target="_blank">
+            <i class="fa-brands fa-github"></i>
           </a>
           
         </div>
@@ -143,7 +158,7 @@
           <div class="item">
             <img class="thumbnail" src="/Photos/gradiant.avif">
             <a class="link-text" href="https://www.learnui.design/tools/gradient-generator.html" target="_blank">
-              Gradiants
+              Gradients
             </a>
           </div>
         </div> <!--Links-Container Row-->
