@@ -2,18 +2,37 @@
 <html>
   <head>
     <meta charset=""UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KT's Links</title>
     <style>
       * {
         border: thin red solid;
       }
       
-      body{
+      html {
+        min-height: 100%;
+      }
+
+      body {
+        min-height: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
+        background: radial-gradient(circle at 50% 50%, #000000, #151925, #23315e, #2b40ab, #3d58d2, #6078c2, #8491b4, #a8a8a8);
+        color: white;
+      }
+
+      a {
+        color:white;
+      }
+
+      .item {
+        background-color: rgba(150, 142, 142, 0.404);
+        margin-bottom: 20px;
+        display:flex;
+        align-items: center;
       }
       
-      .avatar-image{
+      .avatar-image {
         width: 128px;
         height: 128px;
         object-fit: cover;
@@ -27,6 +46,28 @@
         border-radius: 48px;
         object-fit: cover;
       }
+
+      .main-container {
+        max-width: 640px;
+        margin: auto;
+      }
+
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name-row {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+
 
     </style>
   </head>
@@ -51,48 +92,53 @@
           
         </div>
         
-
         <div class="links-row">
           <div class="item">
             <img class="thumbnail" src="/Photos/Motivational.avif">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <a class="link-text" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
               Motivational Speeches
             </a>
           </div>
           <div class="item">
             <img class="thumbnail" src="/Photos/wallhaven.avif">
-            <a href="https://wallhaven.cc/" target="_blank">
+            <a class="link-text" href="https://wallhaven.cc/" target="_blank">
               Cool Wallpapers
             </a>
           </div>
           <div class="item">
             <img class="thumbnail" src="/Photos/premium_photo-1681487767138-ddf2d67b35c1.avif">
-            <a href="https://www.opengraph.xyz/" target="_blank">
+            <a class="link-text" href="https://www.opengraph.xyz/" target="_blank">
               Opengraph For App Dev
             </a>
           </div>
           <div class="item">
             <img class="thumbnail" src="/Photos/unsplash.avif">
-            <a href="https://unsplash.com/" target="_blank">
+            <a class="link-text" href="https://unsplash.com/" target="_blank">
               Unsplash For App Dev
             </a>
           </div>
           <div class="item">
             <img class="thumbnail" src="/Photos/perplexity ai.png">
-            <a href="https://www.perplexity.ai/" target="_blank">
+            <a class="link-text" href="https://www.perplexity.ai/" target="_blank">
               Get Free Perplexity AI Pro For A Year For UChicago Students
             </a>
           </div>
           <div class="item">
             <img class="thumbnail" src="/Photos/w3c.png">
-            <a href="https://validator.w3.org/#validate_by_input" target="_blank">
+            <a class="link-text" href="https://validator.w3.org/#validate_by_input" target="_blank">
               HTML Validator
             </a>
           </div>
           <div class="item">
             <img class="thumbnail" src="/Photos/Borders.avif">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border" target="_blank">
-              Fix Your Borders Here
+            <a class="link-text" href="https://developer.mozilla.org/en-US/docs/Web/CSS/border" target="_blank">
+              Options For Borders
+            </a>
+          </div>
+          <div class="item">
+            <img class="thumbnail" src="/Photos/gradiant.avif">
+            <a class="link-text" href="https://www.learnui.design/tools/gradient-generator.html" target="_blank">
+              Gradiants
             </a>
           </div>
         </div> <!--Links-Container Row-->
